@@ -14,7 +14,7 @@ TypeError: unhashable type: 'list'
 
 # 20221225   
 C++に少しずつ挑戦したいと思う。
-文字列に関してエラーが出たが、charは'',stringは" "で囲む必要があるようだ。
+文字列に関してエラーが出たが、charは'',stringは" "で囲む必要があるようだ  
 int 型についてもエラーが[この鉄則A12](https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_l)を解いていっる時に生じた。intをlong long型することで即ACになった..はぁ。。
 
 
