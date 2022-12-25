@@ -10,3 +10,8 @@
 >>>['1'] in A 
 TypeError: unhashable type: 'list'
 ~~~  
+
+
+# 20221225   
+C++に少しずつ挑戦したいと思う。
+文字列に関してエラーが出たが、charは'',stringは" "で囲む必要があるようだ。
