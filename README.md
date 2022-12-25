@@ -17,4 +17,16 @@ C++に少しずつ挑戦したいと思う。
 文字列に関してエラーが出たが、charは'',stringは" "で囲む必要があるようだ  
 int 型についてもエラーが[この鉄則A12](https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_l)を解いていっる時に生じた。intをlong long型することで即ACになった..はぁ。。
 
+文字列の結合も意味不明。
+~~~
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+  string hello = "Hello";
+  cout << hello[1]+hello[0] << endl;
+}
+----
+#結果:173
+~~~
+?????C++の仕様を勉強しなくては。。はぁ。。
 
