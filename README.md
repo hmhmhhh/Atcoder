@@ -31,5 +31,5 @@ int main() {
 ?????C++の仕様を勉強しなくては。。はぁ。。
 
 # 20221226  
-(abc270_b)[https://atcoder.jp/contests/abc270/tasks/abc270_b]の問題は適切に、
+[abc270_b](https://atcoder.jp/contests/abc270/tasks/abc270_b)の問題は適切に、
 場合分けすることが必要で、個人的に教育的だった。
