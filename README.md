@@ -33,3 +33,22 @@ int main() {
 # 20221226  
 [abc270_b](https://atcoder.jp/contests/abc270/tasks/abc270_b)の問題は適切に、
 場合分けすることが必要で、個人的に教育的だった。
+
+
+# 20230101  
+しばらく仕事のため中断していた。
+文字列と数字のキャストは以下のようにできる。
+~~~
+#include <bits/stdc++.h>
+using namespace std;
+ 
+int main() {
+  string s = "100";
+  int n = stoi(s);
+  cout << n << endl;
+  string ss=to_string(n);
+  cout<<ss<<endl;
+}
+100
+100
+~~~  
