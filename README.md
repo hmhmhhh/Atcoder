@@ -59,3 +59,6 @@ int main() {
 
 ・配列の参照:　　
 vec.at(i): i番目を参照
+・文字列Sからの抽出
+S.substr(init,length):init文字目からlength文字抽出する。
+
