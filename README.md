@@ -65,5 +65,5 @@ S.substr(init,length):init文字目からlength文字抽出する。
 ・atoi(S.at(i))ができないのはなぜだ？S.at(i)がchar型だから？このへん面倒くさいなぁ。。
 
 
-・(ABC_266)[https://atcoder.jp/contests/abc266/tasks/abc266_b]  
+・[ABC_266](https://atcoder.jp/contests/abc266/tasks/abc266_b)  
 
