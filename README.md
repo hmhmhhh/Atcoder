@@ -67,3 +67,9 @@ S.substr(init,length):init文字目からlength文字抽出する。
 
 ・[ABC_266](https://atcoder.jp/contests/abc266/tasks/abc266_b)  
 
+# 20230102  
+int型の変数cをchar型に変換する方法は
+~~~
+char('0'+c)
+~~~
+で書けるようだ。
