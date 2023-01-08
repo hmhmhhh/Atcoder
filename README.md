@@ -98,3 +98,21 @@ for (int bit=0;bit<(1<<n);b++){
   cn.at(b).push_back(a);
  ~~~
  で可能
+ 
+ 
+ 
+# 20220108   
+Queueの使い方 
+~~~
+#include<queue>
+queue<int> Q;
+int main(){
+Q.push(1);1をQに追加
+if(Q.empty): Qが空か判定
+pos=Q.front():先頭の要素をposに代入
+Q.pop();先頭の要素を除外
+Q.push(a):aを最後尾に大入
+}
+~~~
+
+ 
