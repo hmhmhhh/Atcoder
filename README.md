@@ -102,7 +102,7 @@ for (int bit=0;bit<(1<<n);b++){
  
  
 # 20220108   
-Queueの使い方 
+(Queueの使い方)[https://atcoder.jp/contests/apg4b/tasks/APG4b_aa]
 ~~~
 #include<queue>
 queue<int> Q;
@@ -111,6 +111,7 @@ Q.push(1);1をQに追加
 if(Q.empty): Qが空か判定
 pos=Q.front():先頭の要素をposに代入
 Q.pop();先頭の要素を除外
+Q.popback()
 Q.push(a):aを最後尾に大入
 }
 ~~~
