@@ -119,5 +119,6 @@ Q.popback()
 Q.push(a):aを最後尾に大入
 }
 ~~~
-
+https://atcoder.jp/contests/abc256/submissions/me2
+pow(2,N)は実数
  
