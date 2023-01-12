@@ -122,3 +122,11 @@ Q.push(a):aを最後尾に大入
 https://atcoder.jp/contests/abc256/submissions/me2
 pow(2,N)は実数
  
+ 
+ # 20230112  
+mapは自動的にソートされている。
+
+~~~
+cout << q.rbegin()->first - q.begin()->first << endl;
+~~~
+ 
