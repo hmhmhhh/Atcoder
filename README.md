@@ -129,4 +129,4 @@ mapは自動的にソートされている。
 ~~~
 cout << q.rbegin()->first - q.begin()->first << endl;
 ~~~
- 
+自分の回答参照https://atcoder.jp/contests/abc253/tasks/abc253_c
