@@ -130,3 +130,20 @@ mapは自動的にソートされている。
 cout << q.rbegin()->first - q.begin()->first << endl;
 ~~~
 自分の回答参照https://atcoder.jp/contests/abc253/tasks/abc253_c
+
+# 2023-01-15  
+(この試験)[https://atcoder.jp/contests/abc285]に参加したがABCDの４問完答だった。
+Cでの躓いた点としては、long long 型のpow関数を使用する際には
+~~~
+long long ll_pow(long long a, long long n){
+    long long ans = 1;
+    for (long long i = 0; i < n;i++){
+        ans *= a;
+    }
+    return ans;
+}
+~~~
+のように自作の関数を使用するべき点を知らなかった。
+またD問題では深さ優先を使おうとしてbool型の関数を定義したのだが、なぜか正しい返り値を返さず結局参照することで値返し、
+成功したが非常にイライラした。
+
