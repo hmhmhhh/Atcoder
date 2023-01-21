@@ -150,4 +150,5 @@ long long ll_pow(long long a, long long n){
 ~~~
 s.erase(unique(s.begin(), s.end()), s.end());
 ~~~
+https://atcoder.jp/contests/abc036/submissions/me
 
