@@ -147,3 +147,7 @@ long long ll_pow(long long a, long long n){
 またD問題では深さ優先を使おうとしてbool型の関数を定義したのだが、なぜか正しい返り値を返さず結局参照することで値返し、
 成功したが非常にイライラした。
 
+~~~
+s.erase(unique(s.begin(), s.end()), s.end());
+~~~
+
