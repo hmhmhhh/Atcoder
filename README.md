@@ -152,3 +152,10 @@ s.erase(unique(s.begin(), s.end()), s.end());
 ~~~
 https://atcoder.jp/contests/abc036/submissions/me
 
+
+
+~~~
+map<int,vector<int>>
+~~~
+とすると、連想配列とベクトルを合わせるようにできる。
+
