@@ -167,3 +167,9 @@ for (auto p : score) {
   cout << k << " => " << v << endl;
 }
 ~~~
+
+
+
+~~~
+https://atcoder.jp/contests/abc231/tasks/abc231_c
+~~~
