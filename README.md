@@ -159,3 +159,11 @@ map<int,vector<int>>
 ~~~
 とすると、連想配列とベクトルを合わせるようにできる。
 
+mapfor
+~~~
+for (auto p : score) {
+  auto k = p.first;
+  auto v = p.second;
+  cout << k << " => " << v << endl;
+}
+~~~
