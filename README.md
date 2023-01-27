@@ -214,3 +214,6 @@ int main() {
 5
 ~~~
 
+良問
+https://atcoder.jp/contests/abc211/tasks/abc211_d
+
