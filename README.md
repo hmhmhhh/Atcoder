@@ -173,3 +173,44 @@ for (auto p : score) {
 ~~~
 https://atcoder.jp/contests/abc231/tasks/abc231_c
 ~~~
+
+
+#2023 0127 
+~~~
+int main() {
+  vector<int> V = {1, 2, 3, 4, 5};
+  int idx = lower_bound(V.begin(), V.end(), 0) - V.begin();
+  cout << idx << endl;
+  idx = lower_bound(V.begin(), V.end(), 1) - V.begin();
+  cout << idx << endl;
+  idx = lower_bound(V.begin(), V.end(), 2) - V.begin();
+  cout << idx << endl;
+  idx = lower_bound(V.begin(), V.end(), 5) - V.begin();
+  cout << idx << endl;
+  idx = lower_bound(V.begin(), V.end(), 6) - V.begin();
+  cout << idx << endl;
+  cout << "-------------------------" << endl;
+  idx = upper_bound(V.begin(), V.end(), 0) - V.begin();
+  cout << idx << endl;
+  idx = upper_bound(V.begin(), V.end(), 2) - V.begin();
+  cout << idx << endl;
+  idx = upper_bound(V.begin(), V.end(), 5) - V.begin();
+  cout << idx << endl;
+  idx = upper_bound(V.begin(), V.end(), 6) - V.begin();
+  cout << idx << endl;
+}
+~~~
+結果
+~~~
+0
+0
+1
+4
+5
+-------------------------
+0
+2
+5
+5
+~~~
+
