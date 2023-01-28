@@ -217,3 +217,8 @@ int main() {
 良問
 https://atcoder.jp/contests/abc211/tasks/abc211_d
 
+
+
+配列が等しい同化は"="/を使用することが出来る。
+https://atcoder.jp/contests/abc254/editorial/4051　の29行目
+
