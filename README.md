@@ -223,3 +223,5 @@ https://atcoder.jp/contests/abc211/tasks/abc211_d
 https://atcoder.jp/contests/abc254/editorial/4051　の29行目
 
 https://atcoder.jp/contests/abc279/tasks/abc279_d 
+
+# AtCoder Beginner Contest 226 は解答AC
