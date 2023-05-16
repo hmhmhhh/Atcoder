@@ -226,3 +226,8 @@ https://atcoder.jp/contests/abc254/editorial/4051　の29行目
 https://atcoder.jp/contests/abc279/tasks/abc279_d 
 
 # AtCoder Beginner Contest 226 は解答AC
+
+
+
+https://qiita.com/kemkemG0/items/76988e8e62c8a2a9c90a
+は比較関数を自作する方法
